@@ -69,10 +69,12 @@ class AddEntryDialogFragment : BottomSheetDialogFragment() {
             val entry = viewModel.entry
             val datePickerDialog = DatePickerDialog(
                 this.context!!,
+                R.style.TimePickerTheme,
                 DatePickerDialog.OnDateSetListener { _, year, monthOfYear, dayOfMonth ->
                     entry.year = year
                     entry.month = monthOfYear
                     entry.day = dayOfMonth
+                    setDefaultDateTimeValues()
                 }, entry.year, entry.month, entry.day
             )
             datePickerDialog.show()
@@ -83,10 +85,11 @@ class AddEntryDialogFragment : BottomSheetDialogFragment() {
         if (context != null) {
             val entry = viewModel.entry
             val timePickerDialog = TimePickerDialog(
-                this.context!!,
+                this.context!!, R.style.TimePickerTheme,
                 TimePickerDialog.OnTimeSetListener { _, hourOfDay, minute ->
                     entry.hour = hourOfDay
                     entry.minutes = minute
+                    setDefaultDateTimeValues()
                 }, entry.hour, entry.minutes, true
             )
             timePickerDialog.show()

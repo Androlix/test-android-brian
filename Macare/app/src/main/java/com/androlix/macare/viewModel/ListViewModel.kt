@@ -11,7 +11,7 @@ class ListViewModel : ViewModel() {
 
     val data = Transformations.map(Repository.data) { rawData ->
         val filteredData = filterData(rawData)
-        filteredData.sortedBy { it.timestamp }
+        filteredData.sortedByDescending { it.timestamp }
     }
 
     fun onQueryChanged() {
