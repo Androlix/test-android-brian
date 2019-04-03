@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2b2e49</color>
+    <color name="colorPrimaryDark">#171b30</color>
+    <color name="colorAccent">#0f97ff</color>
+
+    <color name="cardListColorA">#fed843</color>
+    <color name="cardListColorB">#f97525</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="grey">#85000000</color>
+    <color name="alphaWhite">#25FFFFFF</color>
+    <color name="alphaWhiteB">#65FFFFFF</color>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Macare</string>
+    <string name="tab_list">List</string>
+    <string name="tab_graph">Graph</string>
+    <string name="glycemiaLevel">%.2f mg/dl</string>
+    <string name="glycemiaLevelHint">Glycemia Level…</string>
+    <string name="pickTime">Pick time</string>
+    <string name="pickDate">Pick Date</string>
+    <string name="confirm">Confirm</string>
+    <string name="glycemiaLevelInputError">Invalid value</string>
+    <string name="emptyList">Empty list</string>
+    <string name="filter">Filter</string>
+    <string name="title_activity_main">Main Activity</string>
+</resources>
